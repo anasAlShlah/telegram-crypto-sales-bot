@@ -1,0 +1,42 @@
+{
+  "name": "telegram-crypto-sales-bot",
+  "version": "1.0.0",
+  "description": "Production-grade Telegram E-Commerce and Dual Crypto/Fiat Payment Bot with automated USDT settlement, cart management, and order tracking",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "telegram-bot",
+    "crypto-payment",
+    "ecommerce",
+    "usdt",
+    "bep20",
+    "trc20",
+    "web3",
+    "telegraf",
+    "typescript"
+  ],
+  "author": "Anas Al Shlah <anas.alshlah.dv@gmail.com> (https://github.com/anasAlShlah)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "qrcode": "^1.5.4",
+    "telegraf": "^4.16.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/qrcode": "^1.5.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.12"
+  }
+}
